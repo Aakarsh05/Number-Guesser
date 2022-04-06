@@ -1,0 +1,26 @@
+body
+{
+    background-color: #2b323c;
+}
+#container
+{
+    background-color:aqua ;
+    border: 5px solid #F5E4C3;
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+p
+{
+    font-size: 24px;
+}
+#input
+{
+    width: 100px;
+    margin: 25px auto;
+}
+#btn
+{
+    margin: 25px auto auto 5px;
+}
