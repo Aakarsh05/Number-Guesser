@@ -16,63 +16,83 @@
   margin: 0;
  
     background:url(https://wallpaperaccess.com/full/1477288.png);  
-  }  
+  } 
+  mark{
+    background-color:white;
+    color: goldenrod;
+  } 
  
  
   
  h1{
    margin-bottom: 20px;
-color: goldenrod;
-  
+   color:gray;
+font-size:5vw ;
+
   text-align: center;
      font-family: cursive;
+     top: 44vh;
+    bottom: 55vh;
+    left: 45vw;
+    right: 55vw;
 
   
  }
  
  h3,p{  
-    font-size: 30px;  
+  font-size:3vw ;
     font-weight: 600;  
     text-align: center;
-    color: goldenrod;
- 
+    color:gray;
+    top: 44vh;
+    bottom: 55vh;
+    left: 45vw;
+    right: 55vw;
 
    
   }  
   
   
   input[type="text"]{  
-    width: 90px;  
+    width: 15vh;  
+    height: 11vh;
     font-weight: 600;  
-
+     display:inline-block;
     padding: 20px 0;  
-    font-size: 28px;  
+    font-size: 3vw;  
     text-align: center;  
     margin-top: 30px;  
     border-radius: 5px;  
     border: 2px solid #202020;  
     color: #663399;
     position: absolute;
-    top: 32%;
-    left: 45.5%;
+    top: 44vh;
+    bottom: 55vh;
+    left: 45vw;
+    right: 55vw;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    margin-bottom: 2vh;
   }  
   button{  
-    width: 160px;  
-    padding: 15px 0;  
+    margin-top: 2vh;
+    width: 20vh;  
+    height: 8vh;
+    padding: ;  
     border-radius: 5px;  
     background-color: #663399;  
     color: #fff;  
     border: none;  
-    font-size: 18px;  
-    font-weight: 600;  
-    margin-bottom: 30px;  
+    font-size: 2vw; 
+    font-weight: 550;  
+    margin-bottom: 30vh;  
     margin: 0;
     position: absolute;
-    top: 50%;
-    
-    left: 43%;
+    top: 60vh;
+    bottom: 40vh;
+     display:inline-block;
+    left: 44vw;
+    right: 56vw;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }  
