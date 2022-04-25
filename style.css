@@ -57,7 +57,7 @@ input[type="text"]{
   width: 15vh;  
   height: 11vh;
   font-weight: 600;  
-   display:inline-block;
+ 
   padding: 20px 0;  
   font-size: 3vw;  
   text-align: center;  
@@ -90,7 +90,7 @@ button{
   position: absolute;
   top: 60vh;
   bottom: 40vh;
-   display:inline-block;
+  
   left: 44vw;
   right: 56vw;
   -ms-transform: translateY(-50%);
