@@ -1,26 +1,101 @@
-body
-{
-    background-color: #2b323c;
+*{  
+  padding: 0;  
+  margin: 0;  
+  box-sizing: border-box;  
+ 
+}  
+body{  
+ margin: 20px;
+ font-family: 'poppins', sans-serif; 
+ width: 100%;
+ height:100vh;
+padding: 10px;
+border-width: 42px;
+border-style: solid;
+border-image: linear-gradient(to right,#7f53ac,#657ced) 1;
+margin: 0;
+
+  background:url(https://wallpaperaccess.com/full/1477288.png);  
+} 
+mark{
+  background-color:white;
+  color: goldenrod;
+} 
+
+
+
+h1{
+ margin-bottom: 20px;
+
+font-size:5vw ;
+
+text-align: center;
+   font-family: cursive;
+   top: 44vh;
+  bottom: 55vh;
+  left: 45vw;
+  right: 55vw;
+
+
 }
-#container
-{
-    background-color:aqua ;
-    border: 5px solid #F5E4C3;
-    height: 275px;
-    width: 750px;
-    margin: auto;
-    text-align: center;
-}
-p
-{
-    font-size: 24px;
-}
-#input
-{
-    width: 100px;
-    margin: 25px auto;
-}
-#btn
-{
-    margin: 25px auto auto 5px;
-}
+
+p{  
+font-size:3vw ;
+  font-weight: 600;  
+  text-align: center;
+  
+  top: 44vh;
+  bottom: 55vh;
+  left: 45vw;
+  right: 55vw;
+
+ 
+}  
+
+
+input[type="text"]{  
+  width: 15vh;  
+  height: 11vh;
+  font-weight: 600;  
+ 
+  padding: 20px 0;  
+  font-size: 3vw;  
+  text-align: center;  
+  margin-top: 30px;  
+  border-radius: 5px;  
+  border: 2px solid #202020;  
+  color: #663399;
+  position: absolute;
+  top: 44vh;
+  bottom: 55vh;
+  left: 45vw;
+  right: 55vw;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-bottom: 2vh;
+}  
+button{  
+  margin-top: 2vh;
+  width: 20vh;  
+  height: 8vh;
+  padding:1hv ;  
+  border-radius: 5px;  
+  background-color: #663399;  
+  color: #fff;  
+  border: none;  
+  font-size: 2vw; 
+  font-weight: 550;  
+  margin-bottom: 30vh;  
+  margin: 0;
+  position: absolute;
+  top: 60vh;
+  bottom: 40vh;
+  
+  left: 44vw;
+  right: 56vw;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}  
+p{  
+  font-weight: 400;  
+}  
