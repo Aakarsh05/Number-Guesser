@@ -10,6 +10,12 @@ btn.addEventListener("click", function () {
   } else if (input < number) {
     output.innerHTML = " You guessed too low!";
   }
+  else if ( input + 20 > number && input < number ){
+    output.innerHTML = "The guessed number is little low";
+  }
+  else if ( input - 20 < number && input > number ){
+    output.innerHTML = "The guessed number is little high";
+  }
   if (input > number) {
     output.innerHTML = "You gussed too high!";
   }
